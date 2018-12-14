@@ -1,0 +1,106 @@
+intents:
+- hej
+- velkommen
+- farvel
+- tak
+- bekræft
+- navn
+- studie_hjælp
+- studie_hvilket
+- studie_placering
+- ingeniør
+- ingeniør_bachelor
+- ingeniør_bachelor_specifik
+- ingeniør_kandidat
+- ingeniør_kandidat_specifik
+- ingeniør_diplom
+- ingeniør_diplom_specifik
+
+
+entities:
+- navn
+- uddannelse
+- studie
+- sted
+- engineer
+- bachelor_uddannelse
+- kandidat_uddannelse
+- diplom_uddannelse
+
+slots:
+  navn:
+   type: text
+  studie:
+   type: text
+  placering:
+   type: text
+  uddannelse:
+   type: text
+
+
+actions:
+- utter_velkommen
+- utter_tak
+- utter_hej
+- utter_farvel
+- utter_studie_hjælp
+- utter_studie_hjælp_hvor
+- utter_studie_informer
+- utter_default
+- utter_ingeniør_hjælp
+- utter_uddannelsestype
+- utter_placering
+- utter_info_diplom_odense
+- utter_uddannelsestype_diplom_odense
+- utter_uddannelsestype_diplom 
+- utter_information
+
+templates:
+  utter_velkommen:
+  - text: "Velkommen jeg er din studievejleder. Hvad kan jeg hjælpe med?"
+
+  utter_hej:
+  - text: "Hyggeligt at møde dig {navn}. Hvordan kan jeg hjælpe?"
+
+  utter_farvel:
+  - text: "På gensyn!"
+  
+  utter_tak:
+  - text: "Velbekomme."
+
+  utter_studie_hjælp:
+  - text: "Hvad vil du gerne uddanne dig indenfor?"
+
+  utter_studie_hjælp_hvor:
+  - text: "Hvor vil du gerne studere {studie} henne i landet?"
+
+  utter_default:
+  - text: "Det forstod jeg ikke. Vil du omfulere dit spørgsmål?"
+
+  utter_ingeniør_hjælp:
+  - text: "Fantastisk valg! Hvilken slags {ingeniør} vil du gerne læse en bachelor eller en kandidat?"
+
+  utter_placering:
+  - text: "Ved du hvilket uddannelsessted du vil studere på?"
+
+  utter_uddannelsestype_diplom:
+  - text: "Vil du læse en Diplom eller en Civil?"
+
+  utter_info_diplom_odense:
+  - text: "Du kan Du kan læse disse Diplomingeniøruddannelser i Odense: 
+  
+  - Bygningsteknik
+  - Electronics
+  - Elektronik
+  - Elektrisk Energiteknologi
+  - Global Management and Manufacturing
+  - Softwareteknologi
+  - Integreret Design
+  - Kemi- og Bioteknologi
+  - Maskinteknik
+  - Mechatronics
+  - Production
+  - Robotteknologi"
+
+  utter_information: 
+  - text: "Værsgo:"

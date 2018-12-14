@@ -1,0 +1,11 @@
+{
+  "name": "The Terminator Bot",
+  "version": "0.0.1",
+  "description": "The bot who will destroy all of mankind",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "socket.io": "^2.2.0"
+  }
+}

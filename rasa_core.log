@@ -1,0 +1,133 @@
+Rasa process starting
+Rasa process starting
+Rasa process starting
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'rasa/models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from rasa/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Server initialized for gevent.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'rasa/models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from rasa/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Server initialized for gevent.
+Rasa Core server is up and running on http://localhost:5500
+c84f88141b5446e0b49a693959006ed7: Sending packet OPEN data {'sid': 'c84f88141b5446e0b49a693959006ed7', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+c84f88141b5446e0b49a693959006ed7: Sending packet MESSAGE data 0
+303c509895864832984dde301a60ca75: Sending packet OPEN data {'sid': '303c509895864832984dde301a60ca75', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+303c509895864832984dde301a60ca75: Sending packet MESSAGE data 0
+303c509895864832984dde301a60ca75: Received packet MESSAGE data 2["session_request",{}]
+received event "session_request" from 303c509895864832984dde301a60ca75 [/]
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+c84f88141b5446e0b49a693959006ed7: Received packet PING data None
+c84f88141b5446e0b49a693959006ed7: Sending packet PONG data None
+303c509895864832984dde301a60ca75: Received packet PING data None
+303c509895864832984dde301a60ca75: Sending packet PONG data None
+Rasa process starting
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'rasa/models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from rasa/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Server initialized for gevent.
+Rasa Core server is up and running on http://localhost:5500
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Sending packet OPEN data {'sid': 'cd36712e8fc5469bb5d6cb0cfb39a4fa', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Sending packet MESSAGE data 0
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Received packet MESSAGE data 2["session_request",{}]
+received event "session_request" from cd36712e8fc5469bb5d6cb0cfb39a4fa [/]
+8a492b7ece9d4f98af50fdfc2f9d94be: Sending packet OPEN data {'sid': '8a492b7ece9d4f98af50fdfc2f9d94be', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+8a492b7ece9d4f98af50fdfc2f9d94be: Sending packet MESSAGE data 0
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Received packet PING data None
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Sending packet PONG data None
+8a492b7ece9d4f98af50fdfc2f9d94be: Received packet PING data None
+8a492b7ece9d4f98af50fdfc2f9d94be: Sending packet PONG data None
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Received packet PING data None
+cd36712e8fc5469bb5d6cb0cfb39a4fa: Sending packet PONG data None
+Rasa process starting
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'rasa/models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from rasa/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Server initialized for gevent.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
